@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(15, 78, 136), rgb(194, 248, 255));
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(19, 206, 231, 0);
+    width: 100%;
+    padding: 0% 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+header a,
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    padding: 1% 5%;
+
+}
+
+header a:hover {
+    background-color: rgb(250, 250, 250, 0.8);
+    color: black;
+
+}
+
+aside {
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social {
+    background-color: rgba(19, 206, 231, 0);
+    display: flex;
+    width: 7%;
+    position: absolute;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.social ul,
+a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 10%;
+    text-decoration: none;
+}
+
+.social a:hover {
+    background-color: rgb(250, 250, 250, 0.8);
+    color: black;
+}
+
+
+.texto-central {
+    background-color: rgb(152, 214, 250, 0.8);
+    width: 50%;
+    height: 50%;
+    margin-left: 8%;
+    margin-top: 25%;
+    color: azure;
+    float: left;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+
+}
+.botoes {
+    width: 120px;
+    height: 35px;
+    border-radius: 24px;
+    background-color: rgba(19, 206, 231, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    margin-top: 4%;
+    border: none;
+
+}
+.botoes:hover{
+    background-color: rgb(250, 250, 250, 0.8);
+    color: black;
+}
+
+.conteiner-imagem {
+    float: right;
+    margin-top: 7%;
+    margin-left: 53%;
+    position: absolute;
+
+}
+
+
+.conteiner-imagem img {
+    width: 100%
+}
